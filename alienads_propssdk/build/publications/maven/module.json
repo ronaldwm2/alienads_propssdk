@@ -3,7 +3,7 @@
   "component": {
     "group": "com.props.adsmanager",
     "module": "alienads_propssdk",
-    "version": "1.0.1",
+    "version": "1.0.6.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -24,13 +24,13 @@
       },
       "files": [
         {
-          "name": "alienads_propssdk-1.0.1.aar",
-          "url": "alienads_propssdk-1.0.1.aar",
-          "size": 13120,
-          "sha512": "17f787bb554d136fe923fce8688424c549f5a37afb4c5506d6beda563c165e7829c239c9cc1b2ade229b2b03ff402b594252d9630cf95cae36a21a75214c0040",
-          "sha256": "3f2b8a6a39131969f693a2322a07b3bbda75a764b2aa168aea20b54fc58d280a",
-          "sha1": "0060dd20cdf4db7612563d6f876f5ebd5f0a6606",
-          "md5": "ffdad9c971ffefb083c6e78506f09451"
+          "name": "alienads_propssdk-1.0.6.1.aar",
+          "url": "alienads_propssdk-1.0.6.1.aar",
+          "size": 18351,
+          "sha512": "35b9145bec9534ac22ca9ad40e636a3ad37d35434f03ead696073a39c950fbf263ca7eabfc58d974cddaaf9bc6a491ef2187717521f49766b0246eee4cd7cdbe",
+          "sha256": "cecde8ea58c0598bf7160dc8f9449b18dfe1c04ede20e4172a07712c35230ddc",
+          "sha1": "ffc10cdfa3698ff80e93f1294a695166d7e35709",
+          "md5": "ba15e8006f1c3eb658a59c2917c961fa"
         }
       ]
     },
@@ -115,17 +115,94 @@
             "org.gradle.category": "platform"
           },
           "endorseStrictVersions": true
+        },
+        {
+          "group": "com.mobilefuse.sdk",
+          "module": "mobilefuse-adapter-admob",
+          "version": {
+            "requires": "1.7.1.0"
+          }
+        },
+        {
+          "group": "com.vungle",
+          "module": "vungle-ads",
+          "version": {
+            "requires": "7.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "22.1.0"
+          }
+        },
+        {
+          "group": "com.google.ads.mediation",
+          "module": "ironsource",
+          "version": {
+            "requires": "7.7.0.1"
+          }
+        },
+        {
+          "group": "com.unity3d.ads",
+          "module": "unity-ads",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "com.google.ads.mediation",
+          "module": "unity",
+          "version": {
+            "requires": "4.9.2.0"
+          }
+        },
+        {
+          "group": "co.ogury",
+          "module": "ogury-sdk",
+          "version": {
+            "requires": "5.+"
+          }
+        },
+        {
+          "group": "co.ogury",
+          "module": "ogury-mediation-gam",
+          "version": {
+            "requires": "5.+"
+          }
+        },
+        {
+          "group": "com.google.android.ump",
+          "module": "user-messaging-platform",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.google.ads.mediation",
+          "module": "pangle",
+          "version": {
+            "requires": "5.8.0.9.0"
+          }
+        },
+        {
+          "group": "com.google.ads.mediation",
+          "module": "vungle",
+          "version": {
+            "requires": "7.1.0.0"
+          }
         }
       ],
       "files": [
         {
-          "name": "alienads_propssdk-1.0.1.aar",
-          "url": "alienads_propssdk-1.0.1.aar",
-          "size": 13120,
-          "sha512": "17f787bb554d136fe923fce8688424c549f5a37afb4c5506d6beda563c165e7829c239c9cc1b2ade229b2b03ff402b594252d9630cf95cae36a21a75214c0040",
-          "sha256": "3f2b8a6a39131969f693a2322a07b3bbda75a764b2aa168aea20b54fc58d280a",
-          "sha1": "0060dd20cdf4db7612563d6f876f5ebd5f0a6606",
-          "md5": "ffdad9c971ffefb083c6e78506f09451"
+          "name": "alienads_propssdk-1.0.6.1.aar",
+          "url": "alienads_propssdk-1.0.6.1.aar",
+          "size": 18351,
+          "sha512": "35b9145bec9534ac22ca9ad40e636a3ad37d35434f03ead696073a39c950fbf263ca7eabfc58d974cddaaf9bc6a491ef2187717521f49766b0246eee4cd7cdbe",
+          "sha256": "cecde8ea58c0598bf7160dc8f9449b18dfe1c04ede20e4172a07712c35230ddc",
+          "sha1": "ffc10cdfa3698ff80e93f1294a695166d7e35709",
+          "md5": "ba15e8006f1c3eb658a59c2917c961fa"
         }
       ]
     }

@@ -1,7 +1,5 @@
 package com.props.adsmanager.connection;
 
-import com.props.adsmanager.BuildConfig;
-
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
@@ -18,36 +16,12 @@ public class PROPS_REST_API {
         builder.connectTimeout(10, TimeUnit.SECONDS);
         builder.writeTimeout(10, TimeUnit.SECONDS);
         builder.readTimeout(30, TimeUnit.SECONDS);
-        if (BuildConfig.DEBUG) {
-            builder.addInterceptor(logging);
-        }
+//        builder.addInterceptor(logging);
         builder.cache(null);
         OkHttpClient okHttpClient = builder.build();
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(API.BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .client(okHttpClient)
-                .build();
-
-        return retrofit.create(API.class);
-    }
-    public static API createSDAPI() {
-
-        HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
-        logging.setLevel(HttpLoggingInterceptor.Level.BODY);
-        OkHttpClient.Builder builder = new OkHttpClient.Builder();
-        builder.connectTimeout(10, TimeUnit.SECONDS);
-        builder.writeTimeout(10, TimeUnit.SECONDS);
-        builder.readTimeout(30, TimeUnit.SECONDS);
-        if (BuildConfig.DEBUG) {
-            builder.addInterceptor(logging);
-        }
-        builder.cache(null);
-        OkHttpClient okHttpClient = builder.build();
-
-        Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(API_SD.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(okHttpClient)
                 .build();
