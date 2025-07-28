@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Advanced Calculator</string>
+    <string name="clear">Clear</string>
+    <string name="equals">Equals</string>
+    <string name="decimal">Decimal</string>
+    <string name="history">History</string>
+    <string name="scientific_mode">Scientific Mode</string>
+    <string name="theme_toggle">Toggle Theme</string>
+    <string name="calculation_history">Calculation History</string>
+    <string name="no_history">No calculation history</string>
+    <string name="history_cleared">History cleared</string>
+    <string name="theme_changed">Theme changed</string>
+    <string name="scientific_enabled">Scientific mode enabled</string>
+    <string name="scientific_disabled">Scientific mode disabled</string>
+    <string name="instructions">Double tap display to toggle theme • Swipe right for history • Long press C to clear all</string>
+</resources>
